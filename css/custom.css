@@ -7,10 +7,10 @@ body{
 #home{
   background-image: url("../images/home.jpg");
   background-repeat:no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   background-color: #F7F7F7;
   width: 100%;
 }
@@ -67,9 +67,9 @@ body{
 }
 #map
 {
-        width: 100%;
+        width: 650px;
         height: 400px;
-        background-color: grey;
+        margin-top: 20px;
 }
 
 .navbar-default{
@@ -90,6 +90,9 @@ body{
   }
   .contact-content{
     margin-top: 330px;
+  }
+  .home-content{
+    margin-top: 550px;
   }
 }
 
@@ -112,4 +115,88 @@ body{
   letter-spacing: 6px;
   margin-top: 30px;
   text-align: center;
+}
+.address-contact{
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 6px;
+  margin-top: 30px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.copyrights{
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.designed{
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.heading-home{
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+.header-content{
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.op-principle{
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.op-left{
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.op-right{
+  font-weight: 300;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.op-left-content{
+  font-weight: 300;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.op-right-head{
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  text-align: right;
+  margin-bottom: 50px;
 }

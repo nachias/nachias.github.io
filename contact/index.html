@@ -65,9 +65,14 @@
           <p class="bold-contact">Feel free to call us</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row hidden-xs">
         <div class="col-lg-10 col-lg-offset-1">
           <p class="thin-contact">+91 84899-38071 | +91 84899-38073 | 0452-4393774</p>
+        </div>
+      </div>
+      <div class="row visible-xs">
+        <div class="col-lg-10 col-lg-offset-1">
+          <p class="thin-contact">+91 84899-38071 </br> +91 84899-38073 </br> 0452-4393774</p>
         </div>
       </div>
       <div class="row">
@@ -86,45 +91,30 @@
         </div>
       </div>
       <div class="row">
-        <div id="#map">
-
+        <div class="col-lg-5 col-lg-offset-1" >
+          <center><div id="map">
+          </div></center>
+        </div>
+        <div class="col-lg-5 col-lg-offset-1">
+        <p class="address-contact">  Nachias Fashion Pvt Ltd,</br>
+          2/272 Muthupandi Nagar,</br>
+          Saradambal Kovil street,</br>
+          Bye Pass Road</br>
+          Madurai – 625016.
+        </p>
         </div>
       </div>
+      <div class="row">
+        <center><p class="copyrights"> ~ Copyrights © Nachias Fashion Pvt Ltd ~ </p></center>
+        <center><p class="designed">Designed by <a href="#">Sundar Saravanan</a></p></center>
+      </div>
 </div>
-
-    <!-- <div class="top-nav row">
-      <div class="col-lg-1 col-lg-offset-2">
-        <p class="nav-tab">Home</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Products</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Clients</p>
-      </div>
-
-      <div class="col-lg-2 center-nachias">
-        <p class="nav-center-tab">Nachias</p>
-        <p class="nav-c-tab">Fashion</p>
-        <center><img src="./images/logo.png" height="80" width="80"></center>
-      </div>
-
-      <div class="col-lg-2">
-        <p class="nav-tab">Infrastructure</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Callback</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Contact</p>
-      </div>
-    </div> -->
     <script>
           function initMap() {
 
             var uluru = {lat: 9.918274, lng: 78.090792};
             var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 4,
+              zoom: 16,
               center: uluru
             });
             var marker = new google.maps.Marker({
