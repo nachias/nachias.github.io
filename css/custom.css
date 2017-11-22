@@ -14,6 +14,26 @@ body{
   background-color: #F7F7F7;
   width: 100%;
 }
+#callback{
+  background-image: url("../images/callback.jpg");
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #F7F7F7;
+  width: 100%;
+}
+#contact{
+  background-image: url("../images/contact.jpg");
+  background-repeat:no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #F7F7F7;
+  width: 100%;
+}
 .nav-tab,.nav-center-tab,.nav-c-tab{
   color:#ffffff;
 }
@@ -45,6 +65,12 @@ body{
 .center-nachias{
  padding-top: 28px;
 }
+#map
+{
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+}
 
 .navbar-default{
   background-color: transparent;
@@ -56,16 +82,34 @@ body{
     margin-left:265px;
   }
   .nav-center-tab{
-
     margin-left: 30px;
   }
 
   .nav-c-tab{
-
     margin-right: 30px;
+  }
+  .contact-content{
+    margin-top: 330px;
   }
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   border: none;
+}
+
+
+.bold-contact{
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.thin-contact{
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 6px;
+  margin-top: 30px;
+  text-align: center;
 }

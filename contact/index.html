@@ -18,7 +18,7 @@
     <script src="../js/main.js"></script>
 
   </head>
-  <body id="home">
+  <body id="contact">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -54,7 +54,43 @@
       <center><p class="nav-center-tab">Nachias</p>
       <img src="../images/logo.png" height="80" width="80" ><p class="nav-c-tab">Fashion</p></center>
     </div>
+    <div class="row contact-content">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <p class="bold-contact">Contact Us</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+          <p class="bold-contact">Feel free to call us</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <p class="thin-contact">+91 84899-38071 | +91 84899-38073 | 0452-4393774</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+          <p class="bold-contact">Write to Us</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+          <p class="thin-contact">care@nachias.com </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <p class="bold-contact">Visit Us</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="#map">
 
+        </div>
+      </div>
+</div>
 
     <!-- <div class="top-nav row">
       <div class="col-lg-1 col-lg-offset-2">
@@ -83,7 +119,23 @@
         <p class="nav-tab">Contact</p>
       </div>
     </div> -->
+    <script>
+          function initMap() {
 
+            var uluru = {lat: 9.918274, lng: 78.090792};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 4,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1gpP-yNyeU2OvF_XNYKZgLyzGdkNVgAY&callback=initMap">
+        </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
