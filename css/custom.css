@@ -43,7 +43,7 @@ body{
 }
 
 .center-nachias{
- padding-top: 18px;
+ padding-top: 28px;
 }
 
 .navbar-default{
@@ -54,6 +54,15 @@ body{
 @media (min-width: 1200px) {
   .nav-cen{
     margin-left:265px;
+  }
+  .nav-center-tab{
+
+    margin-left: 30px;
+  }
+
+  .nav-c-tab{
+
+    margin-right: 30px;
   }
 }
 
