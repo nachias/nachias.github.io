@@ -68,8 +68,306 @@ body{
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   border: none;
 }
+.textbox-callback:focus{
+  outline: none;
+}
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .center-nachias{
+   padding-top: 28px;
+  }
+  .nav-cen{
+    margin-left:0px;
+  }
+  .nav-tab{
+    font-weight: 400;
+    font-size: 15px;
+    text-shadow: 0px 2px 4px #000000;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  .nav-center-tab{
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 0px 2px 4px #000000;
+    letter-spacing: 1px;
+    display: inline;
+  }
 
+  .nav-c-tab{
+    font-weight: 300;
+    font-size: 20px;
+    text-shadow: 0px 0px 0px #000000;
+    letter-spacing: 1px;
+    display: inline;
+    padding-left: 3px;
+  }
+  .nav-center-tab{
+    margin-left: 10px;
+  }
+  .nav-c-tab{
+    margin-left: 0px;
+  }
+  .bold-contact{
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .thin-contact{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .address-contact{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .heading-home{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+  }
+  .header-content{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  .op-principle{
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .op-left,.op-right-head{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 6px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+  }
+
+  .op-right,.op-left-content{
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+  }
+
+  .copyrights,.designed{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+  .copyrights{
+    margin-top: 50px;
+  }
+
+  .designed{
+    margin-bottom: 30px;
+  }
+  .textbox-callback{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .sub-but{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #000000;
+    color:#ffffff;
+    letter-spacing: 2px;
+    background-color: #000000;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  li{
+      background: #827F7F ;
+      border: 1px solid #827F7F;
+  }
+  .nav-center-tab{
+    margin-right: 20px;
+  }
+  .nav-c-tab{
+    margin-left: 20px;
+  }
+  .contact-content{
+    margin-top: 100px;
+  }
+  .home-content{
+    margin-top: 200px;
+  }
+  .callback-content{
+    margin-top: 175px;
+  }
+  .bold-contact{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .thin-contact{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .address-contact{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .heading-home{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+  }
+  .header-content{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-top: 12px;
+  }
+  .op-principle{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .op-left,.op-right-head{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 4px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .op-right,.op-left-content{
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .copyrights,.designed{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .copyrights{
+    margin-top: 20px;
+  }
+
+  .designed{
+    margin-bottom: 20px;
+  }
+  .textbox-callback{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .sub-but{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #000000;
+    color:#ffffff;
+    letter-spacing: 2px;
+    background-color: #000000;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .contact-content{
+    margin-top: 100px;
+  }
+  .home-content{
+    margin-top: 225px;
+  }
+  .callback-content{
+    margin-top: 170px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px ) {
+  .nav-cen{
+    margin-left:150px;
+  }
+  .contact-content{
+    margin-top: 150px;
+  }
+  .home-content{
+    margin-top: 225px;
+  }
+  .callback-content{
+    margin-top: 170px;
+  }
+  .op-left{
+    text-align: left;
+  }
+
+  .op-right{
+    text-align: right;
+  }
+
+  .op-left-content{
+    text-align: left;
+  }
+
+  .op-right-head{
+    text-align: right;
+  }
+}
 
 @media (min-width: 1200px) {
   .center-nachias{
@@ -89,6 +387,9 @@ body{
   }
   .home-content{
     margin-top: 550px;
+  }
+  .callback-content{
+    margin-top: 500px;
   }
   .bold-contact{
     font-weight: 500;
@@ -172,103 +473,39 @@ body{
     line-height: 20px;
   }
   .copyrights{
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .designed{
     margin-bottom: 30px;
   }
+  .textbox-callback{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .sub-but{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #000000;
+    color:#ffffff;
+    letter-spacing: 2px;
+    background-color: #000000;
+    font-size: 20px;
+  }
+
+
 }
 
 @media (max-width: 1200px) {
-  li{
-      background: #827F7F ;
-  }
-  .nav-center-tab{
-    margin-right: 20px;
-  }
-  .nav-c-tab{
-    margin-left: 20px;
-  }
-  .contact-content{
-    margin-top: 30px;
-  }
-  .home-content{
-    margin-top: 75px;
-  }
-  .bold-contact{
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 3px;
-    margin-top: 20px;
-    text-align: center;
-  }
 
-  .thin-contact{
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 4px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .address-contact{
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 4px;
-    margin-top: 20px;
-    text-align: center;
-    line-height: 25px;
-  }
-  .heading-home{
-    font-weight: 600;
-    font-size: 22px;
-    letter-spacing: 2px;
-    margin-top: 50px;
-  }
-  .header-content{
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 2px;
-    line-height: 25px;
-    margin-top: 12px;
-  }
-  .op-principle{
-    font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 2px;
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .op-left,.op-right-head{
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 4px;
-    vertical-align: middle;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .op-right,.op-left-content{
-    font-weight: 300;
-    font-size: 18px;
-    font-style: italic;
-    letter-spacing: 2px;
-    vertical-align: middle;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .copyrights,.designed{
-    font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 20px;
-  }
-  .copyrights{
-    margin-top: 20px;
-  }
-
-  .designed{
-    margin-bottom: 20px;
-  }
 }

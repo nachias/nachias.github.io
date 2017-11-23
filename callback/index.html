@@ -14,9 +14,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <meta name="robots" content="noindex, nofollow">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="../css/custom.css">
     <script src="../js/main.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      var url = 'https://script.google.com/macros/s/AKfycbxeF0eEH4NBUANkh8fYXg8gITn7knIdPC7RbL_oGNt-RdPtmPTW/exec';
+      //var redirectUrl = 'success-page.html';
+      // show the loading
+      var $form = $(#test-form);
+      $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
+      var jqxhr = $.post(url, $form.serialize(), function(data) {
+          console.log("Success! Data: " + data.statusText);
+          //$(location).attr('href',redirectUrl);
+      })
 
+});
+
+    </script>
   </head>
   <body id="callback">
     <nav class="navbar navbar-default">
@@ -54,39 +70,65 @@
       <center><p class="nav-center-tab">Nachias</p>
       <img src="../images/logo.png" height="80" width="80" ><p class="nav-c-tab">Fashion</p></center>
     </div>
+    <div class="row callback-content">
+
+
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <p class="bold-contact">Request a callback</p>
+      </div>
+    </div>
+    <form id="test-form">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <center><input class="textbox-callback" type="text" name="Name" placeholder="Name"/></center>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <center><input class="textbox-callback" type="text" name="Organization" placeholder="Organization Name"/></center>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <center><input class="textbox-callback" type="text" name="Phone" placeholder="Phone Number"/></center>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <center><input class="textbox-callback" type="text" name="Email" placeholder="Email"/></center>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <center><button type="submit" class="btn btn-default sub-but" id="postForm">Submit</button></center>
+      </div>
+
+    </div>
+  </form>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+        <p class="bold-contact">Feel free to call us</p>
+      </div>
+    </div>
+    <div class="row hidden-xs">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+        <p class="thin-contact">+91 84899-38071 | +91 84899-38073 | 0452-4393774</p>
+      </div>
+    </div>
+    <div class="row visible-xs">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+        <p class="thin-contact">+91 84899-38071 </br> +91 84899-38073 </br> 0452-4393774</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+        <p class="bold-contact">Write to Us</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+        <p class="thin-contact">sales@nachias.com </p>
+      </div>
+    </div>
     <div class="row">
       <center><p> ~ Copyrights © Nachias Fashion Pvt Ltd ~ </p></center>
       <center><p>Designed by <a href="#">Sundar Saravanan</a></p></center>
     </div>
+  </div>
 
-
-    <!-- <div class="top-nav row">
-      <div class="col-lg-1 col-lg-offset-2">
-        <p class="nav-tab">Home</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Products</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Clients</p>
-      </div>
-
-      <div class="col-lg-2 center-nachias">
-        <p class="nav-center-tab">Nachias</p>
-        <p class="nav-c-tab">Fashion</p>
-        <center><img src="./images/logo.png" height="80" width="80"></center>
-      </div>
-
-      <div class="col-lg-2">
-        <p class="nav-tab">Infrastructure</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Callback</p>
-      </div>
-      <div class="col-lg-1">
-        <p class="nav-tab">Contact</p>
-      </div>
-    </div> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
