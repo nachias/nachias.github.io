@@ -54,6 +54,8 @@ body{
 }
 .logo-image{
   margin-top: 10px;
+  height: 80px;
+  width: 80px;
 }
 #map
 {
@@ -175,6 +177,11 @@ body{
   li{
       background: #827F7F ;
       border: 1px solid #827F7F;
+  }
+  .logo-image{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
   }
   .nav-tab{
     font-weight: 400;
