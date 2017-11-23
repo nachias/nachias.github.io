@@ -21,6 +21,11 @@ body{
 .nav-tab,.nav-center-tab,.nav-c-tab{
   color:#ffffff;
 }
+
+#clients{
+  background-color: #ffffff;
+}
+
 .nav-tab{
   font-weight: 400;
   font-size: 18px;
@@ -44,7 +49,10 @@ body{
   display: inline;
   padding-left: 3px;
 }
-
+#myCarousel{
+  height: 500px;
+  width: 800px;
+}
 .nav-center-tab{
   margin-right: 5px;
   margin-left: 20px
@@ -56,6 +64,10 @@ body{
   margin-top: 10px;
   height: 80px;
   width: 80px;
+}
+
+.client-row{
+  margin-top: 50px;
 }
 #map
 {
