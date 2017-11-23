@@ -49,10 +49,7 @@ body{
   display: inline;
   padding-left: 3px;
 }
-#myCarousel{
-  height: 500px;
-  width: 800px;
-}
+
 .nav-center-tab{
   margin-right: 5px;
   margin-left: 20px
@@ -304,10 +301,7 @@ body{
     background-color: #000000;
     font-size: 18px;
   }
-  #myCarousel{
-    height: 300px;
-    width: 500px;
-  }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
