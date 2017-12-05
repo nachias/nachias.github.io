@@ -14,25 +14,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
 
     <link rel="stylesheet" href="../css/custom.css">
-    <script src="../js/main.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-      var url = 'https://script.google.com/macros/s/AKfycbxeF0eEH4NBUANkh8fYXg8gITn7knIdPC7RbL_oGNt-RdPtmPTW/exec';
-      //var redirectUrl = 'success-page.html';
-      // show the loading
-      var $form = $(#test-form);
-      $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
-      var jqxhr = $.post(url, $form.serialize(), function(data) {
-          console.log("Success! Data: " + data.statusText);
-          //$(location).attr('href',redirectUrl);
-      })
-
-});
-
-    </script>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -72,22 +58,22 @@
         <p class="bold-contact">Request a callback</p>
       </div>
     </div>
-    <form id="test-form">
+    <form action="https://formspree.io/sralvin.ferrari456@gmail.com" method="POST">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-        <center><input class="textbox-callback" type="text" name="Name" placeholder="Name"/></center>
+        <center><input class="textbox-callback" type="text" name="name" placeholder="Name"/></center>
       </div>
       <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-        <center><input class="textbox-callback" type="text" name="Organization" placeholder="Organization Name"/></center>
+        <center><input class="textbox-callback" type="text" name="organization" placeholder="Organization Name"/></center>
       </div>
       <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-        <center><input class="textbox-callback" type="text" name="Phone" placeholder="Phone Number"/></center>
+        <center><input class="textbox-callback" type="text" name="phone" placeholder="Phone Number"/></center>
       </div>
       <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-        <center><input class="textbox-callback" type="text" name="Email" placeholder="Email"/></center>
+        <center><input class="textbox-callback" type="text" name="email" placeholder="Email"/></center>
       </div>
       <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-        <center><button type="submit" class="btn btn-default sub-but" id="postForm">Submit</button></center>
+        <center><button type="submit" class="btn btn-default sub-but" id="submit-form">Submit</button></center>
       </div>
 
     </div>
@@ -155,9 +141,6 @@
       <center><p class="copyrights"> ~ Copyrights © Nachias Fashion Pvt Ltd ~ </p></center>
     </div>
   </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
