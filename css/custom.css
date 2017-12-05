@@ -27,6 +27,13 @@ body{
   padding-bottom: 30px;
 }
 
+.design-link{
+  color:#FF5733;
+}
+.design-link:hover{
+  color:#FF5733;
+}
+
 #myCarousel{
   margin-bottom: 30px;
 }
@@ -229,12 +236,13 @@ body{
     line-height: 20px;
   }
   .copyrights{
-    margin-top: 20px;
+    margin-top: 10px;
     color:#D0C9C9;
   }
 
   .designed{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color:#D0C9C9;
   }
   .textbox-callback{
     background-color: transparent;
@@ -351,11 +359,12 @@ body{
     line-height: 20px;
   }
   .copyrights{
-    margin-top: 30px;
+    margin-top: 25px;
     color:#D0C9C9;
   }
   .designed{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    color:#D0C9C9;
   }
   .textbox-callback{
     background-color: transparent;
@@ -464,12 +473,13 @@ body{
     line-height: 20px;
   }
   .copyrights{
-    margin-top: 50px;
+    margin-top: 30px;
     color:#D0C9C9;
   }
 
   .designed{
     margin-bottom: 30px;
+    color:#D0C9C9;
   }
   .textbox-callback{
     background-color: transparent;
