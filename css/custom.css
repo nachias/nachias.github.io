@@ -7,6 +7,34 @@ body{
   width: 100%;
 }
 
+.home-content{
+  background-color: #B03A3A;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-tab:hover{
+  text-decoration: none;
+}
+.operating{
+  background-color: #000000;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.footer-bar{
+  background-color: #3B3434;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#myCarousel{
+  margin-bottom: 30px;
+}
+
+.heading-home,.header-content,.op-principle,.op-content{
+  color:#ffffff;
+}
+
 .contact-background{
   background-repeat:no-repeat;
   -webkit-background-size: cover;
@@ -16,10 +44,9 @@ body{
   height: 100%;
   width: 100%;
   margin-top: -100px;
-  background-image: url("../images/contact.jpg");
 }
-.nav-tab,.nav-center-tab,.nav-c-tab{
-  color:#ffffff;
+.nav-tab,.nav-center-tab,.nav-c-tab,.nav-tab-active{
+  color:#000000;
 }
 
 #clients{
@@ -29,14 +56,28 @@ body{
 .nav-tab{
   font-weight: 400;
   font-size: 18px;
-  text-shadow: 0px 2px 4px #000000;
+  text-shadow: 0px 0px 0px #000000;
   letter-spacing: 2px;
   margin-top: 18px;
 }
+
+.nav-tab-active{
+  border-bottom: 2px solid #000000;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: 0px 0px 0px #000000;
+  letter-spacing: 2px;
+  margin-top: 18px;
+}
+
+.nav-tab:hover{
+  border-bottom: 2px dashed #000000;
+}
+
 .nav-center-tab{
   font-weight: 600;
   font-size: 23px;
-  text-shadow: 0px 2px 4px #000000;
+  text-shadow: 0px 0px 0px #000000;
   letter-spacing: 2px;
   display: inline;
 }
@@ -59,12 +100,13 @@ body{
 }
 .logo-image{
   margin-top: 10px;
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
 }
 
 .client-row{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 #map
 {
@@ -83,106 +125,9 @@ body{
   outline: none;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  .bold-contact{
-    font-weight: 500;
-    font-size: 21px;
-    letter-spacing: 5px;
-    margin-top: 30px;
-    text-align: center;
-  }
 
-  .thin-contact{
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: 6px;
-    margin-top: 30px;
-    text-align: center;
-  }
-  .address-contact{
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: 6px;
-    margin-top: 30px;
-    text-align: left;
-    line-height: 30px;
-  }
-  .heading-home{
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin-top: 50px;
-  }
-  .header-content{
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: 30px;
-    margin-top: 15px;
-  }
-  .op-principle{
-    font-weight: 700;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .op-left,.op-right-head{
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 6px;
-    vertical-align: middle;
-    margin-bottom: 50px;
-  }
 
-  .op-right,.op-left-content{
-    font-weight: 300;
-    font-size: 20px;
-    font-style: italic;
-    letter-spacing: 2px;
-    vertical-align: middle;
-    margin-bottom: 50px;
-  }
-
-  .copyrights,.designed{
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 2px;
-    line-height: 20px;
-  }
-  .copyrights{
-    margin-top: 50px;
-  }
-  .designed{
-    margin-bottom: 30px;
-  }
-  .textbox-callback{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid black;
-    margin-top: 30px;
-    letter-spacing: 3px;
-    width: 400px;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-  }
-  .sub-but{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 40px;
-    width: 150px;
-    text-align: center;
-    border: 1px solid #000000;
-    color:#ffffff;
-    letter-spacing: 2px;
-    background-color: #000000;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 768px){
+@media (max-width: 767px){
   li{
       background: #827F7F ;
       border: 1px solid #827F7F;
@@ -195,10 +140,17 @@ body{
   .nav-tab{
     font-weight: 400;
     font-size: 18px;
-    text-shadow: 0px 2px 4px #000000;
+    text-shadow: 0px 0px 0px #000000;
     letter-spacing: 2px;
     margin-top: 10px;
   }
+  .nav-tab-inv{
+    color: #ffffff;
+  }
+  .nav-tab,.nav-tab-active{
+    color:#ffffff;
+  }
+
   .center-nachias{
    padding-top: 15px;
   }
@@ -217,6 +169,7 @@ body{
     letter-spacing: 4px;
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 20px;
   }
   .address-contact{
     font-weight: 300;
@@ -228,43 +181,47 @@ body{
   }
   .heading-home{
     font-weight: 600;
-    font-size: 22px;
+    font-size: 25px;
     letter-spacing: 2px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   .header-content{
     font-weight: 300;
     font-size: 18px;
     letter-spacing: 2px;
-    line-height: 25px;
-    margin-top: 12px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
   }
   .op-principle{
     font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 2px;
-    margin-top: 40px;
+    font-size: 23px;
+    letter-spacing: 8px;
+    margin-top: 50px;
     text-align: center;
-    margin-bottom: 40px;
-  }
-  .op-left,.op-right-head{
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 4px;
-    vertical-align: middle;
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
-  .op-right,.op-left-content{
+  .op-content{
     font-weight: 300;
     font-size: 18px;
-    font-style: italic;
-    letter-spacing: 2px;
-    vertical-align: middle;
+    letter-spacing: 5px;
+    margin-top: 10px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
+  .footer-tab{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    text-align: left;
+    color: #D0C9C9;
+  }
+
+
+
   .copyrights,.designed{
     font-weight: 400;
     font-size: 13px;
@@ -273,6 +230,7 @@ body{
   }
   .copyrights{
     margin-top: 20px;
+    color:#D0C9C9;
   }
 
   .designed{
@@ -304,28 +262,126 @@ body{
 
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1200px) {
 
+  .nav-tab,.nav-tab-active{
+    font-size: 13px;
+  }
+  .nav-c-tab,.nav-center-tab{
+    font-size: 20px;
+  }
+
+  .logo-image{
+    height: 80px;
+    width: 80px;
+  }
+
+  .bold-contact{
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .thin-contact{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  .address-contact{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .heading-home{
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .header-content{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .op-principle{
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 7px;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .op-content{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .footer-tab{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 6px;
+    text-align: left;
+    color: #D0C9C9;
+  }
+
+
+
+  .copyrights,.designed{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+  .copyrights{
+    margin-top: 30px;
+    color:#D0C9C9;
+  }
+  .designed{
+    margin-bottom: 30px;
+  }
+  .textbox-callback{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .sub-but{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #000000;
+    color:#ffffff;
+    letter-spacing: 2px;
+    background-color: #000000;
+    font-size: 20px;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1200px ) {
-
-  .op-left{
-    text-align: left;
-  }
-
-  .op-right{
-    text-align: right;
-  }
-
-  .op-left-content{
-    text-align: left;
-  }
-
-  .op-right-head{
-    text-align: right;
-  }
-}
 
 @media (min-width: 1200px) {
 
@@ -342,6 +398,7 @@ body{
     font-size: 20px;
     letter-spacing: 6px;
     margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
   }
   .address-contact{
@@ -352,58 +409,54 @@ body{
     text-align: left;
     line-height: 30px;
   }
+  .address-section{
+    margin-bottom: 50px;
+  }
   .heading-home{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 2px;
     margin-top: 50px;
+    margin-bottom: 30px;
   }
   .header-content{
     font-weight: 300;
     font-size: 20px;
     letter-spacing: 2px;
-    line-height: 30px;
+    line-height: 40px;
     margin-top: 15px;
+    margin-bottom: 30px;
   }
   .op-principle{
     font-weight: 700;
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-size: 30px;
+    letter-spacing: 10px;
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
   }
-  .op-left,.op-right-head{
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 6px;
-    vertical-align: middle;
-    margin-bottom: 50px;
-  }
 
-  .op-right,.op-left-content{
+  .op-content{
     font-weight: 300;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 8px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-tab{
+    font-weight: 500;
+    font-size: 15px;
     letter-spacing: 2px;
-    vertical-align: middle;
-    margin-bottom: 50px;
-  }
-  .op-left{
+    margin-top: 7px;
     text-align: left;
+    color: #D0C9C9;
+  }
+  .nav-tab-inv{
+    color:#ffffff;
   }
 
-  .op-right{
-    text-align: right;
-  }
 
-  .op-left-content{
-    text-align: left;
-  }
-
-  .op-right-head{
-    text-align: right;
-  }
   .copyrights,.designed{
     font-weight: 400;
     font-size: 15px;
@@ -412,6 +465,7 @@ body{
   }
   .copyrights{
     margin-top: 50px;
+    color:#D0C9C9;
   }
 
   .designed{
